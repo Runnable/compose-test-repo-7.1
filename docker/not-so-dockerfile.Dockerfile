@@ -1,6 +1,7 @@
 FROM node:latest
 
-COPY /src/index.js index.js
-EXPOSE 5000
+RUN ls
+
+RUN sleep 100000
 
 CMD ["node", "index.js"]
